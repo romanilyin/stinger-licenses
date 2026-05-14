@@ -1,4 +1,4 @@
-# Stinger Royalty-Free EULA 1.0
+# Stinger Royalty-Free EULA 1.0 — English convenience translation
 
 **SPDX-License-Identifier:** `LicenseRef-Stinger-Royalty-Free-EULA-1.0`  
 **License version:** 1.0  
@@ -6,6 +6,8 @@
 **Licensor:** ROMAN ILYIN  
 **Canonical licensor repository namespace:** `https://github.com/romanilyin/*`  
 **Copyright:** Copyright © 2026 ROMAN ILYIN. All rights reserved except as expressly granted in this EULA.
+
+**Language priority:** the Russian-language text of `Stinger Royalty-Free EULA 1.0` is the primary and controlling version. This English text is provided only as a convenience translation. If the Russian and English versions conflict, differ, or are interpreted differently, the Russian version controls.
 
 ## Non-binding summary
 

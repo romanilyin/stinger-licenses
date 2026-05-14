@@ -1,0 +1,39 @@
+{
+  "repository": "stinger-licenses",
+  "canonical_repository": "https://github.com/romanilyin/stinger-licenses",
+  "generated_for": "ROMAN ILYIN",
+  "year": 2026,
+  "effective_date": "2026-05-14",
+  "default_file_language": "en",
+  "primary_language": "ru",
+  "controlling_language": "ru",
+  "license_name": "Stinger Royalty-Free EULA 1.0",
+  "license_id": "LicenseRef-Stinger-Royalty-Free-EULA-1.0",
+  "english_convenience_license_file": "LICENSES/LicenseRef-Stinger-Royalty-Free-EULA-1.0.md",
+  "russian_authoritative_license_file": "LICENSES/LicenseRef-Stinger-Royalty-Free-EULA-1.0.ru.md",
+  "root_license_permission_english": "LICENSE.md",
+  "root_license_permission_russian_authoritative": "LICENSE.ru.md",
+  "licensor": "ROMAN ILYIN",
+  "licensor_namespace": "https://github.com/romanilyin/*",
+  "project_overlays": {
+    "CanonicalPath": {
+      "canonical_repository": "https://github.com/romanilyin/CanonicalPath",
+      "path": "examples/repo-overlays/CanonicalPath/"
+    },
+    "sgg-perfmeter": {
+      "canonical_repository": "https://github.com/romanilyin/sgg-perfmeter",
+      "path": "examples/repo-overlays/sgg-perfmeter/"
+    },
+    "sgg-unity-mcp-gateway": {
+      "canonical_repository": "https://github.com/romanilyin/sgg-unity-mcp-gateway",
+      "path": "examples/repo-overlays/sgg-unity-mcp-gateway/"
+    }
+  },
+  "notes": [
+    "English files use base .md names for readability.",
+    "Russian .ru.md files are primary and controlling.",
+    "If English and Russian texts conflict, differ, or are interpreted differently, Russian controls.",
+    "This EULA is source-available and royalty-free for End Products; it is not an OSI-approved open source license.",
+    "Standalone sale/resale/commercialization of the Asset or Derivative Assets is prohibited."
+  ]
+}
