@@ -55,3 +55,7 @@ LICENSES/LicenseRef-Stinger-Royalty-Free-EULA-1.0.ru.md
 ```
 
 If the English and Russian versions conflict, differ, or are interpreted differently, the Russian version controls.
+
+## Translation update
+
+This repository now includes convenience translations for zh-CN, ja, ko, es, pt-BR, de, fr, and it. Russian remains controlling.

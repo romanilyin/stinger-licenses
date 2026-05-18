@@ -2,13 +2,26 @@
 
 This repository stores license texts authored by **ROMAN ILYIN**.
 
-The default `.md` files are in English so GitHub and most readers can open them directly. The Russian `.ru.md` files are the authoritative versions. If the English and Russian versions conflict, differ, or are interpreted differently, the Russian version controls.
+The default `.md` files are in English so GitHub and most readers can open them directly. The Russian `.ru.md` files are the authoritative versions. All other language files are convenience translations. If any translation conflicts with, differs from, or is interpreted differently from the Russian version, the Russian version controls.
 
 ## Main license
 
-| License | SPDX identifier | English convenience text | Authoritative Russian text |
-|---|---|---|---|
-| Stinger Royalty-Free EULA 1.0 | `LicenseRef-Stinger-Royalty-Free-EULA-1.0` | `LICENSES/LicenseRef-Stinger-Royalty-Free-EULA-1.0.md` | `LICENSES/LicenseRef-Stinger-Royalty-Free-EULA-1.0.ru.md` |
+| License | SPDX identifier | English convenience text | Authoritative Russian text | Translation index |
+|---|---|---|---|---|
+| Stinger Royalty-Free EULA 1.0 | `LicenseRef-Stinger-Royalty-Free-EULA-1.0` | `LICENSES/LicenseRef-Stinger-Royalty-Free-EULA-1.0.md` | `LICENSES/LicenseRef-Stinger-Royalty-Free-EULA-1.0.ru.md` | `TRANSLATIONS.md` |
+
+## Available convenience translations
+
+```text
+zh-CN  Simplified Chinese
+ja     Japanese
+ko     Korean
+es     Spanish
+pt-BR  Brazilian Portuguese
+de     German
+fr     French
+it     Italian
+```
 
 ## Stinger Royalty-Free EULA 1.0
 
@@ -18,7 +31,7 @@ It is source-available and royalty-free for End Products. It is not an OSI-appro
 
 ## How to use in a project repository
 
-For a ROMAN ILYIN project distributed under this license, copy both license texts into the project root:
+For a ROMAN ILYIN project distributed under this license, copy at least these files into the project root:
 
 ```text
 LICENSE.md       # English convenience text for readability
@@ -26,6 +39,8 @@ LICENSE.ru.md    # authoritative Russian text
 NOTICE.md        # project-specific notice, usually English by default
 NOTICE.ru.md     # project-specific Russian notice, recommended
 ```
+
+Optional convenience translations can also be copied, for example `LICENSE.zh-CN.md`, `LICENSE.ja.md`, `LICENSE.ko.md`, `LICENSE.es.md`, `LICENSE.pt-BR.md`, `LICENSE.de.md`, `LICENSE.fr.md`, and `LICENSE.it.md`.
 
 Ready-to-copy examples for selected repositories are available in `examples/repo-overlays/`.
 

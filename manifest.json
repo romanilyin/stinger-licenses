@@ -32,8 +32,93 @@
   "notes": [
     "English files use base .md names for readability.",
     "Russian .ru.md files are primary and controlling.",
-    "If English and Russian texts conflict, differ, or are interpreted differently, Russian controls.",
+    "All non-Russian language files are convenience translations.",
+    "If any translation conflicts with, differs from, or is interpreted differently from Russian, Russian controls.",
     "This EULA is source-available and royalty-free for End Products; it is not an OSI-approved open source license.",
     "Standalone sale/resale/commercialization of the Asset or Derivative Assets is prohibited."
-  ]
+  ],
+  "available_languages": [
+    "en",
+    "ru",
+    "zh-CN",
+    "ja",
+    "ko",
+    "es",
+    "pt-BR",
+    "de",
+    "fr",
+    "it"
+  ],
+  "translations": {
+    "en": {
+      "language_name": "English",
+      "root_license_permission_file": "LICENSE.md",
+      "eula_file": "LICENSES/LicenseRef-Stinger-Royalty-Free-EULA-1.0.md",
+      "role": "convenience_default"
+    },
+    "ru": {
+      "language_name": "Russian",
+      "root_license_permission_file": "LICENSE.ru.md",
+      "eula_file": "LICENSES/LicenseRef-Stinger-Royalty-Free-EULA-1.0.ru.md",
+      "role": "authoritative_controlling"
+    },
+    "zh-CN": {
+      "language_name": "Simplified Chinese",
+      "local_language_name": "简体中文",
+      "root_license_permission_file": "LICENSE.zh-CN.md",
+      "eula_file": "LICENSES/LicenseRef-Stinger-Royalty-Free-EULA-1.0.zh-CN.md",
+      "role": "convenience_translation"
+    },
+    "ja": {
+      "language_name": "Japanese",
+      "local_language_name": "日本語",
+      "root_license_permission_file": "LICENSE.ja.md",
+      "eula_file": "LICENSES/LicenseRef-Stinger-Royalty-Free-EULA-1.0.ja.md",
+      "role": "convenience_translation"
+    },
+    "ko": {
+      "language_name": "Korean",
+      "local_language_name": "한국어",
+      "root_license_permission_file": "LICENSE.ko.md",
+      "eula_file": "LICENSES/LicenseRef-Stinger-Royalty-Free-EULA-1.0.ko.md",
+      "role": "convenience_translation"
+    },
+    "es": {
+      "language_name": "Spanish",
+      "local_language_name": "Español",
+      "root_license_permission_file": "LICENSE.es.md",
+      "eula_file": "LICENSES/LicenseRef-Stinger-Royalty-Free-EULA-1.0.es.md",
+      "role": "convenience_translation"
+    },
+    "pt-BR": {
+      "language_name": "Brazilian Portuguese",
+      "local_language_name": "Português do Brasil",
+      "root_license_permission_file": "LICENSE.pt-BR.md",
+      "eula_file": "LICENSES/LicenseRef-Stinger-Royalty-Free-EULA-1.0.pt-BR.md",
+      "role": "convenience_translation"
+    },
+    "de": {
+      "language_name": "German",
+      "local_language_name": "Deutsch",
+      "root_license_permission_file": "LICENSE.de.md",
+      "eula_file": "LICENSES/LicenseRef-Stinger-Royalty-Free-EULA-1.0.de.md",
+      "role": "convenience_translation"
+    },
+    "fr": {
+      "language_name": "French",
+      "local_language_name": "Français",
+      "root_license_permission_file": "LICENSE.fr.md",
+      "eula_file": "LICENSES/LicenseRef-Stinger-Royalty-Free-EULA-1.0.fr.md",
+      "role": "convenience_translation"
+    },
+    "it": {
+      "language_name": "Italian",
+      "local_language_name": "Italiano",
+      "root_license_permission_file": "LICENSE.it.md",
+      "eula_file": "LICENSES/LicenseRef-Stinger-Royalty-Free-EULA-1.0.it.md",
+      "role": "convenience_translation"
+    }
+  },
+  "translation_index_english": "TRANSLATIONS.md",
+  "translation_index_russian": "TRANSLATIONS.ru.md"
 }

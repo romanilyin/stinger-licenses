@@ -36,3 +36,7 @@ SPDX-License-Identifier: LicenseRef-Stinger-Royalty-Free-EULA-1.0
   "license": "LicenseRef-Stinger-Royalty-Free-EULA-1.0"
 }
 ```
+
+## Extra translations
+
+Опциональные справочные переводы можно копировать как `LICENSE.<lang>.md`, например `LICENSE.zh-CN.md` и `LICENSE.ja.md`. Основным остаётся русский `LICENSE.ru.md`.

@@ -36,3 +36,7 @@ In Unity `package.json`:
   "license": "LicenseRef-Stinger-Royalty-Free-EULA-1.0"
 }
 ```
+
+## Extra translations
+
+Optional convenience translations can be copied as `LICENSE.<lang>.md`, for example `LICENSE.zh-CN.md` and `LICENSE.ja.md`. The Russian `LICENSE.ru.md` remains controlling.
